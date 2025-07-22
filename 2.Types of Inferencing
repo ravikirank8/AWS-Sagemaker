@@ -1,0 +1,77 @@
+🔍 What is Inferencing in AI?
+Inferencing means making predictions or decisions based on a trained AI or machine learning model.
+
+Think of training as teaching the model.
+
+And inferencing as using the model to answer questions or predict results.
+
+🧠 Types of Inferencing in AI
+There are mainly two types:
+
+1. Real-Time (Online) Inferencing
+The model makes predictions immediately as data comes in.
+
+Used when speed is important.
+
+✅ Example:
+Voice Assistants (like Siri or Alexa): You ask a question, and it replies immediately.
+
+Fraud Detection in Banking: While you're doing a transaction, the system checks instantly if it looks suspicious.
+
+📌 Characteristics:
+Fast response (low latency)
+
+Used in interactive or critical systems
+
+Often needs high-performance infrastructure
+
+2. Batch Inferencing
+The model makes predictions on a large set of data at once, usually on a schedule.
+
+Used when speed isn’t critical.
+
+✅ Example:
+Netflix Recommendations: Every night, it processes your watch history and updates what it suggests.
+
+Customer Segmentation in Marketing: Every week, a model runs through all customers to group them for targeted emails.
+
+📌 Characteristics:
+Slower but more efficient for big data
+
+Done offline (not in real-time)
+
+Good for reporting, analytics, or planning
+
+| Feature                 | Real-Time Inferencing             | Batch Inferencing                   |
+| ----------------------- | --------------------------------- | ----------------------------------- |
+| **Speed**               | Immediate                         | Scheduled / Delayed                 |
+| **Use Case**            | Chatbots, Fraud Detection, Alerts | Analytics, Reports, Recommendations |
+| **Data Size**           | Small, one at a time              | Large datasets                      |
+| **Infrastructure Need** | High (must be always ready)       | Can use cheaper, scalable systems   |
+| **Example**             | Voice commands on phone           | Nightly email targeting reports     |
+
+
+🧠 Summary in Simple Words:
+If you want answers now → use Real-Time Inferencing.
+
+If you’re okay with answers later, in bulk → use Batch Inferencing.
+
+📊 Real-Time vs Batch Inferencing — Simple Comparison
+| Feature                   | Real-Time Inferencing                      | Batch Inferencing                           |
+| ------------------------- | ------------------------------------------ | ------------------------------------------- |
+| **Speed**                 | Instant (seconds or milliseconds)          | Scheduled (minutes, hours, daily)           |
+| **Use Cases**             | Voice assistants, fraud alerts, chatbots   | Recommendations, analytics, reports         |
+| **Data Size**             | One-by-one (live data)                     | Large sets (bulk data)                      |
+| **Example**               | Self-driving cars, Siri                    | Netflix recommendations, customer targeting |
+| **Infrastructure Needed** | High availability and fast response system | Can be slower and cost-effective            |
+
+
+🎯 Summary (Real-Time Thinking)
+| Scenario                                                  | Type          | Why?                           |
+| --------------------------------------------------------- | ------------- | ------------------------------ |
+| You ask Siri a question                                   | **Real-Time** | Needs to reply instantly       |
+| A factory camera sees a broken part                       | **Real-Time** | Needs to stop the line fast    |
+| Netflix updates your movie suggestions overnight          | **Batch**     | Speed not urgent, done in bulk |
+| A bank checks every day's transactions for fraud patterns | **Batch**     | Review large data once daily   |
+
+
