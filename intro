@@ -124,4 +124,11 @@ No prediction or planning
 Just reacts to current input
 
 
+| Term          | Meaning in AI                               | Think of it as...                         |
+| ------------- | ------------------------------------------- | ----------------------------------------- |
+| Reactive AI   | Responds to current input only              | Like a vending machine — acts instantly   |
+| Predictive AI | Learns from data to predict future outcomes | Like a weather app — forecasts the future |
+
+
+
 
